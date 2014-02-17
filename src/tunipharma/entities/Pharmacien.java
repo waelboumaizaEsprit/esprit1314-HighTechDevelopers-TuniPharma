@@ -2,14 +2,13 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package tunipharma.HighTecDevolpers.ENTITITES;
+package tunipharma.entities;
 
 /**
  *
  * @author sahar
  */
 public class Pharmacien {
-    
     private String id_pharmacien;
     private String nom_pharmacien;
     private String prenom_pharmacien;
@@ -55,7 +54,6 @@ public class Pharmacien {
     public void setAddresse_pharmacien(String addresse_pharmacien) {
         this.addresse_pharmacien = addresse_pharmacien;
     }
-    
     
     
 }
